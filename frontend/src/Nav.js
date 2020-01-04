@@ -1,12 +1,14 @@
 import React from 'react'
+import './Nav.css';
 
 const Nav = (props) => (
     <section class="nav">
-        <nav>
-            <p>Benji's animal shelter</p>
-            <a href="/about">About</a>
-            <a href="/adopt">adopt</a>
-        </nav>
+        <ul>
+            <li>Benji's Animal Shelter</li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/">Adopt a pet</a></li>
+            <li><a href="/rocky">Rocky</a></li>
+        </ul>
     </section>
 )
 export default Nav
