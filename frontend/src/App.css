@@ -7,6 +7,7 @@
 }
 .nav {
   display: block;
+  font-family: Candara;
 }
 .card-content {
   padding: 5px 0px 5px 15px;
@@ -21,24 +22,32 @@
   margin: 8px 0px;
 }
 .card {
-  width: 350px;
-  border-radius: 15px;
+  width: 320px;
+  border-radius: 15px; 
   box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.17);
 }
 
-.card-content > button {
+.card > img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card-content > a {
   color: #0080ff;
   font-size: 25px;
-  margin: 10px 0px;
   border: none;
   background: none;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
   
 }
 
-h1{
+.home > h1{
   padding: 0px 50px;
   font-size: 40px;
+  font-family: Helvetica;
 }
 .cardContainer {
   display: flex;
@@ -59,5 +68,93 @@ h1{
   color: #09d3ac;
 }
 .home {
-  padding: 50px 0px;
+  padding: 120px 40px;
+}
+
+.name {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px 20px;
+}
+.links > a{
+  color: white;
+  padding: 14px 16px;
+  margin: 0px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: normal;
+}
+.links > a:hover {
+  font-weight: bold;
+}
+
+.nav {
+  box-shadow: 0px 0px 13px 10px rgba(0,0,0,0.2);
+  background-color: #0080ff;
+  margin: 0;
+  padding: 10px 100px;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about {
+  padding: 0px 100px;
+}
+.about > h1 {
+  font-size: 40px;
+}
+.about > p {
+  font-size: 25px;
+}
+.about-img {
+  padding: 70px 0px 10px 0px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.animal {
+  padding: 80px 100px;
+}
+.animal > h1 {
+  font-size: 50px;
+}
+
+.info-box {
+  display:flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+.info-box > p {
+  font-size: 25px;
+  margin: 10px;
+}
+.pic-info-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.adopt {
+  background-color: #0080ff;
+  border-radius: 40px;
+  font-size: 35px;
+  padding: 20px 65px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 40px 0px;
+}
+
+.review {
+  background-color: #808080;
+  border-radius: 10px;
+  font-size: 40px;
 }
