@@ -1,0 +1,11 @@
+.sectionContainer {
+    padding: 0px 100px;
+}
+
+.sectionContainer h1 {
+    padding-left: 52px;
+}
+.pets {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,32 @@
+.animalContainer {
+    padding-left: 100px;
+    width: 80%;
+}
+
+.animalPicture {
+    height: 139px;
+    width: 216px;
+}
+
+.mainInformation {
+    display: flex;
+}
+.animalDetails {
+    padding-left: 50px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.animalDetail {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.animalIcon {
+    font-size: 30px;
+    padding-right: 10px;
+}
