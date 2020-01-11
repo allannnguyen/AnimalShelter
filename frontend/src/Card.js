@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = (props) => (
     <section class="card">
-        <img src="https://picsum.photos/320/250"/>
+        <img src={props.pic} height='250' width='320'/>
         <div class="card-content">
             <h1>{props.name}</h1>
             <p>{props.breed}</p>

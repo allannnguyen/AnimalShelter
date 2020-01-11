@@ -5,7 +5,7 @@ const Animal = (props) => (
     <section class="animal">
         <h1>{props.pet.name}</h1>
         <div class="pic-info-header">
-            <img src="https://picsum.photos/350/200"/>
+            <img src={props.pet.pic} height='500' width='640'/>
             <div class="info-box">
                 <p>Breed: {props.pet.breed}</p>
                 <p>Status: {props.pet.status}</p>
