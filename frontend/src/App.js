@@ -4,6 +4,8 @@ import './App.css';
 import Card from './Card'
 import Animal from './Animal';
 import About from './About';
+import Navbar from './Navbar';
+import Section from './Section';
 import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 import axios from 'axios';
 import API from "./utils/API";
@@ -98,17 +100,11 @@ class App extends React.Component {
   render() {
       return (
         <BrowserRouter>
-      <div class="nav">
-            <div class = "name"><h1>Benji's Animal Shelter</h1></div>
-            <div class = "links">
-              <Link to="/about">About</Link>
-              <Link to="/">Adopt a pet</Link>
-            </div>
-      </div>
+        <Navbar/>
 
       <Switch>
         <Route exact path="/">
-          <section class = "home">
+          {/* <section class = "home">
             <h1>Dogs and puppies</h1>
             <div class="cardContainer">
               {this.state.animals[0].pets.map(petObject => (
@@ -121,7 +117,10 @@ class App extends React.Component {
               <Card name={petObject.name} breed={petObject.breed} status={petObject.status} gender={petObject.gender} yearsOld={petObject.yearsOld} id = {petObject.id} pic = {petObject.pic}/>
             ))}
             </div>
-          </section>
+          </section> */}
+          <div class="home"></div>
+          <Section title="Dogs and puppies" id="0" animals={this.state.animals}/>
+          <Section title="Cats" id="1" animals={this.state.animals}/>
         </Route>
         <Route path="/1">
           <Animal pet={this.state.animals[0].pets[0]}/>

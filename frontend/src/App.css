@@ -5,54 +5,13 @@
 .App-logo {
   height: 40vmin;
 }
-.nav {
-  display: block;
-  font-family: Candara;
-}
-.card-content {
-  padding: 5px 0px 5px 15px;
-}
-.card-content > h1 {
-  font-size: 28px;
-  margin: 0px;
-  padding: 0px;
-}
-.card-content > p {
-  font-size: 20px;
-  margin: 8px 0px;
-}
-.card {
-  width: 320px;
-  border-radius: 15px; 
-  box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.17);
-}
-
-.card > img {
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-}
-
-.card-content > a {
-  color: #0080ff;
-  font-size: 25px;
-  border: none;
-  background: none;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  
-}
 
 .home > h1{
   padding: 0px 50px;
   font-size: 40px;
   font-family: Helvetica;
 }
-.cardContainer {
-  display: flex;
-  justify-content: space-around;
-}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -68,7 +27,7 @@
   color: #09d3ac;
 }
 .home {
-  padding: 120px 40px;
+  padding-top: 70px;
 }
 
 .name {
@@ -77,44 +36,20 @@
   font-weight: bold;
   padding: 0px 20px;
 }
-.links > a{
-  color: white;
-  padding: 14px 16px;
-  margin: 0px 30px;
-  font-size: 25px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: normal;
-}
-.links > a:hover {
-  font-weight: bold;
-}
 
-.nav {
-  box-shadow: 0px 0px 13px 10px rgba(0,0,0,0.2);
-  background-color: #0080ff;
-  margin: 0;
-  padding: 10px 100px;
-  position: fixed;
-  top: 0;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 .about {
   padding: 0px 100px;
 }
 .about > h1 {
   font-size: 40px;
+  margin: 10px;
 }
 .about > p {
-  font-size: 25px;
+  font-size: 20px;
+  padding-left: 30px;
 }
 .about-img {
-  padding: 70px 0px 10px 0px;
+  padding: 65px 0px 10px 0px;
   width: 100%;
   max-width: 100%;
   height: auto;

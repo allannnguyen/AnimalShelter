@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import header from './about-header.jpg';
 
 const About = (props) => (
     <section>
         <div class="about-img">
-            <img src="https://picsum.photos/1365/400"/>
+            <img src={header}/>
         </div>
         <div class ="about">
             <h1>Our mission</h1>
